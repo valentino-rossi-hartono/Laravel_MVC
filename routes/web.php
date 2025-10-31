@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('homepage');
 });
 
-Route::resource('products', ProductController::class);
+Route::resource('product', ProductController::class);
